@@ -19,5 +19,6 @@ from django_app import views
 
 urlpatterns = [
     url(r'^$', views.index),
+    url(r'^about/$', views.about),
     url(r'^admin/', admin.site.urls)
 ]
